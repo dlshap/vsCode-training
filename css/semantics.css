@@ -1,0 +1,45 @@
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: turquoise;
+}
+
+.all-browsers >h1, .browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.all-browsers h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250%;
+}
+
+.browser {
+    background: yellow;
+}
+
+.browser>h2, p {
+    margin: 4px;
+}
+
+.browser>h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    color: blue;
+}
+
+.browser p {
+    font-family:fantasy;
+    font-size: x-large;
+    color: rgb(206, 42, 13);
+}
+
+aside {
+    font-family: 'Courier New', Courier, monospace;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
