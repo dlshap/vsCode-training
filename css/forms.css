@@ -4,6 +4,10 @@
 }
 
 .green-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:green;
+     color:green;
 }
+
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

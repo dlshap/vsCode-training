@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+function syncDelay(milliseconds){
+ var start = new Date().getTime();
+ var end=0;
+ while( (end-start) < milliseconds){
+     end = new Date().getTime();
+ }
+}
+
+var c = document.getElementById("myCanvas");
+
+ctx = null;
+var ctx = c.getContext("2d");
+
+ctx.moveTo(0,0);
+
+/*
+for (let i = 1; i <= 100; i++) {
+  ctx.lineTo(i*2, i);
+  ctx.stroke();
+  syncDelay(50);
+}
+*/
+
+ctx.lineTo(0,0);
+ctx.stroke();
+syncDelay(1000);
+ctx.lineTo(100,50);
+ctx.stroke();
+syncDelay(1000);
+
+ctx.lineTo(200,100);
+ctx.stroke();
+
+</script>
+
+</body>
+</html>
