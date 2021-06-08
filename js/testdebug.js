@@ -1,7 +1,7 @@
 function hello(name) {
     let phrase = `Hello, ${name}!`;
   
-    debugger;
+    // debugger;
     say(phrase);
   }
   
